@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--CSS Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.css" integrity="sha512-otONSJGv1l0LjJXcgyqi2MeKXtnthkiXAleeQjFJOKYcVD5u+mOuPb7xCnlsb74Ld+N0ONbP7KYRmW2/OWrvaA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <!-- Favicons -->
@@ -47,8 +48,8 @@
     <nav>
       <!-- Logo Area (May Add) -->
       <ul class="navigation">
-        <li><a href="#home" class="nav-link">Home</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="index.html#projects" class="nav-link">Projects</a></li>
         <li><a href="aboutMe.html" class="nav-link">About</a></li>
       </ul>
 
@@ -60,22 +61,21 @@
   
   <div id="fullpage">
     <!-- Home Section -->
-    <section class="hero" id="home">
-        <div>
+      <div class="section" id="home">
+        <div class="home-intro">
           <h3> Hi, I'm Lily</h3>
-          <p>
-          </p>
+          <p> Aspiring UX Research and Designer</p>
+          <p> Carnegie Mellon 2024</p>
+          <p> Seeking Enrollment for Master's Degree for Fall 2024</p>
         </div>
-      </section>
-
+      </div>
       <!-- Projects section -->
-      <section class="projects" id="projects">
+      <div class="section"  id="projects">
         <!-- Projects to include: 
-           This portfolio, 
            Let's go to Japan, 
            Travel Tagger, 
            Let's Learn Hiragana/Unnamed Design Challenge-->
-        <h2 class ="slide" data-anchor="slide3" class="projects-title">Projects</h2>
+        <h2 class="projects-title" class="emphasize">Projects</h2>
         <div class="row">
           <div class="projects-container">
             <!-- 1 & 2 -->
@@ -162,45 +162,12 @@
   </div>
 
 
-    <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up"
-      ><img
-        src="assets/icons/icons8-upward-arrow.gif"
-        class="socicon up-arrow"
-        alt=""
-    /></i>
-
     <!-- Footer section -->
     <footer>
       <p class="copy">
         Built with &#x2661; by Lily Madojemu
       </p>
-      <!-- social icons -->
-      <div class="socials">
-        <a href="#" target="_blank"
-          ><img
-            src=""
-            alt="Linkedin"
-            class="socicon"
-        /></a>
-        <!-- Add email icon -->
-        <a href="#" target="_blank"
-          ><img 
-          src="" 
-          alt="Email" 
-          class="socicon"
-        /></a>
-      </div>
     </footer>
 
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>
